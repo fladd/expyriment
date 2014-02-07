@@ -96,14 +96,7 @@ class Build(build_py):
                       stat.S_IRUSR | stat.S_IWUSR | stat.S_IRGRP | stat.S_IROTH)
         build_py.byte_compile(self, files)
 
-version_nr = "{0}"
-with open('CHANGES.md') as f:
-    for line in f:
-        if line[0:8].lower() == "upcoming":
-            version_nr += "+"
-        if line[0:7] == "Version":
-            version_nr = version_nr.format(line[8:13])
-            break
+version_nr = '0.6.5~opensesame4'
 
 # Check if we are building/installing from the repository
 try:
