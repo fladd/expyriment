@@ -1,3 +1,9 @@
+expyriment (0.7.0b~opensesame1-ubuntu1) saucy; urgency=low
+
+  * Pretty stable pre-release of 0.7.0
+
+ -- Sebastiaan Mathot <s.mathot@cogsci.nl>  Sat, 15 Feb 2014 18:55:22 +0100
+
 expyriment (0.6.5~opensesame4-ubuntu3) saucy; urgency=low
 
   * Patched version of 0.6.4
