@@ -96,7 +96,7 @@ class Build(build_py):
                       stat.S_IRUSR | stat.S_IWUSR | stat.S_IRGRP | stat.S_IROTH)
         build_py.byte_compile(self, files)
 
-version_nr = '0.7.0b~opensesame1'
+version_nr = '0.7.0b~opensesame2'
 
 # Check if we are building/installing from the repository
 try:
